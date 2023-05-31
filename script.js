@@ -15,8 +15,3 @@ clickButton.addEventListener("click", function() {
   // ポイントを表示するテキストを更新
   pointsElement.textContent = "ポイント: " + clickCount;
 });
-
-//50Pを超えたら通知
-if (point > 50) {
-    alert('50を超えた！！');
-}
